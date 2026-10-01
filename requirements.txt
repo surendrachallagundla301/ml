@@ -1,0 +1,10 @@
+torch
+faiss-cpu
+numpy
+pandas
+scipy
+scikit-learn
+fastapi
+uvicorn
+httpx
+pytest

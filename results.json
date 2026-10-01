@@ -1,0 +1,33 @@
+{
+ "data": {
+  "users": 20000,
+  "items": 10000,
+  "train": 1228664,
+  "test": 317143,
+  "eval_users": 3000
+ },
+ "results": [
+  {
+   "model": "Popularity",
+   "recall": 0.07876149252078084,
+   "ndcg": 0.08795505161453772
+  },
+  {
+   "model": "Item-item CF (cosine, top-100 nbrs)",
+   "recall": 0.21284185592386032,
+   "ndcg": 0.23751452021644728
+  },
+  {
+   "model": "Two-tower (ID + tag content)",
+   "recall": 0.20248342673694802,
+   "ndcg": 0.21381463927323954
+  }
+ ],
+ "serving": {
+  "flat_ms_per_query": 0.02628220452202691,
+  "hnsw_ms_per_query": 0.03517013125949436,
+  "hnsw_recall_vs_exact_at100": 0.9681666666666666,
+  "n_items": 10000.0,
+  "dim": 64
+ }
+}

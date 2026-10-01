@@ -1,0 +1,9 @@
+ratings.csv
+books.csv
+book_tags.csv
+tags.csv
+artifacts/
+__pycache__/
+.pytest_cache/
+*.pyc
+nohup.out
